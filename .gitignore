@@ -14,4 +14,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
-/tmp
+/tmp/*
+/test/*
+/log/*
+/vendor/*
+/Gemfile.lock
+/db/*
+/lib/*
