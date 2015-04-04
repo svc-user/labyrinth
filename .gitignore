@@ -18,6 +18,5 @@
 /test/*
 /log/*
 /vendor/*
-/Gemfile.lock
 /db/*
 /lib/*
