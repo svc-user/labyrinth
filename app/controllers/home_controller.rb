@@ -27,16 +27,16 @@ class HomeController < ApplicationController
 		def load_nouns
 			nouns = Array.new
 
-			puts "Have #{nouns.length} pages in memory."
+			#puts "Have #{nouns.length} pages in memory."
 			#do magic thing and fetch from memory instead of disc.
 			
-			puts "Loading nouns from ../assets/nouns.txt"
+			#puts "Loading nouns from ../assets/nouns.txt"
 			File.open(Rails.root.to_s + '/app/assets/nouns.txt', 'r') do |infile|
 				while (line = infile.gets)
 					nouns << line.gsub("\n", "") unless line.length == 0
 				end
 			end
-			puts "Loaded #{nouns.length} nouns."
+			#puts "Loaded #{nouns.length} nouns."
 			return nouns
 		end
 end
