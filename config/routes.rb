@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
    root  'home#index'
-	
+
+	get	 '/stats-for-labyrinth' => 'stats#index'
+
 	get  '/' => 'home#index'
 	post '/' => 'home#index'
 
