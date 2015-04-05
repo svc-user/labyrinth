@@ -1,0 +1,53 @@
+<div class="row">
+	<div class="twelve columns">
+		<h1>Stats for labyrinth</h1>
+	</div>
+</div>
+
+<div class="row">
+	<div class="two columns">
+		<span class="u-pull-right">Unique IP's:</span>
+	</div>
+	<div class="ten columns">
+		<%= @stats[:unique_ips] %>
+	</div>
+</div>
+<div class="row">
+	<div class="two columns">
+		<span class="u-pull-right">Unique UA's:</span>
+	</div>
+	<div class="ten columns">
+		<%= @stats[:unique_uas] %>
+	</div>
+</div>
+<% @stats[:request_types].each do |key, value| %>
+	<div class="row">
+		<div class="two columns">
+			<span class="u-pull-right"><%= key %> requests:</span>
+		</div>
+		<div class="ten columns">
+			<%= value %>
+		</div>
+	</div>
+<% end %>
+<div class="row">
+	<div class="two columns">
+		<span class="u-pull-right">Total served pages:</span>
+	</div>
+	<div class="ten columns">
+		<%= @stats[:total_served] %>
+	</div>
+</div>
+
+<% @stats[:raw].each do |stat| %>
+	<div class="row">
+		<div class="tvelve columns">
+			<pre>
+				<code>
+					<%= stat.inspect.gsub(',',",\n") %>
+				</code>
+			</pre>
+		</div>
+	</div>
+<% end %>
+
