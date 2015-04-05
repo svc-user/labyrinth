@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library - Spaghetti - Lift</title>
+  <link rel="stylesheet" media="all" href="/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home_controller-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home_controller-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application-a26063ec9911f02e5ee7e0377f1cf2c7.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ETlovHB5xpoNtPrpMnLwXfS9tvuZ7jUHufDHypL8ECvzMzinbAkE+zGFxNwP/PovjbYge5TxFy1fWprkrCb5PQ==" />
+</head>
+<body>
+
+<h1>Library - Spaghetti - Lift</h1>
+
+	<a href="/fall/afterthought/numeric">/fall/afterthought/numeric</a>
+	<br>
+	<a href="/fog/art">/fog/art</a>
+	<br>
+	<a href="/verse/canoe/bathtub">/verse/canoe/bathtub</a>
+	<br>
+	<a href="/chive/need/commission">/chive/need/commission</a>
+	<br>
+	<a href="/cherries/geometry/forecast">/cherries/geometry/forecast</a>
+	<br>
+	<a href="/hose/luttuce">/hose/luttuce</a>
+	<br>
+	<a href="/select/sauce">/select/sauce</a>
+	<br>
+	<a href="/couch/bubble">/couch/bubble</a>
+	<br>
+	<a href="/violin/desk">/violin/desk</a>
+	<br>
+	<a href="/nickel">/nickel</a>
+	<br>
+
+
+
+</body>
+</html>

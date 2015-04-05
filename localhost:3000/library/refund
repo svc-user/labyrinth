@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library - Refund</title>
+  <link rel="stylesheet" media="all" href="/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home_controller-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home_controller-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application-a26063ec9911f02e5ee7e0377f1cf2c7.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="YZq1Ol5jrolZV/webkH/KcjAq8z73B8lWwGPmWVMwVGDkOUhQhNs6GVmwitTz/Vbscs9TPbDPQ+9q9K3W5YoRw==" />
+</head>
+<body>
+
+<h1>Library - Refund</h1>
+
+	<a href="/chocolate/romania/basketball">/chocolate/romania/basketball</a>
+	<br>
+	<a href="/archaeology/bulldozer">/archaeology/bulldozer</a>
+	<br>
+	<a href="/babies">/babies</a>
+	<br>
+	<a href="/exhaust">/exhaust</a>
+	<br>
+	<a href="/room/vietnam/comb">/room/vietnam/comb</a>
+	<br>
+	<a href="/city/money">/city/money</a>
+	<br>
+	<a href="/candle">/candle</a>
+	<br>
+	<a href="/wave">/wave</a>
+	<br>
+	<a href="/eyelash/energy">/eyelash/energy</a>
+	<br>
+	<a href="/slave/mother/internet">/slave/mother/internet</a>
+	<br>
+
+
+
+</body>
+</html>

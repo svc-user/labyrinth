@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Child</title>
+  <link rel="stylesheet" media="all" href="/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home_controller-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home_controller-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application-a26063ec9911f02e5ee7e0377f1cf2c7.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gMPgaQcNPtI19wjXHnU2w317MYwJ6dlkWBLDjT9/NpBiybByG338swnGNuIj+zyxBHCnDAT2+06+uJ6jAaXfhg==" />
+</head>
+<body>
+
+<h1>Child</h1>
+
+	<a href="/beautician/fireplace/camera">/beautician/fireplace/camera</a>
+	<br>
+	<a href="/modem/lung/pumpkin">/modem/lung/pumpkin</a>
+	<br>
+	<a href="/detective">/detective</a>
+	<br>
+	<a href="/column/bassoon/dollar">/column/bassoon/dollar</a>
+	<br>
+	<a href="/century/lumber">/century/lumber</a>
+	<br>
+	<a href="/hobbies/ant/soil">/hobbies/ant/soil</a>
+	<br>
+	<a href="/weasel">/weasel</a>
+	<br>
+	<a href="/credit/accountant/camp">/credit/accountant/camp</a>
+	<br>
+	<a href="/behavior/rice/citizenship">/behavior/rice/citizenship</a>
+	<br>
+	<a href="/recorder/skate/lute">/recorder/skate/lute</a>
+	<br>
+
+
+
+</body>
+</html>

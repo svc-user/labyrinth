@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zone - Stage - May</title>
+  <link rel="stylesheet" media="all" href="/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/home_controller-64e62ddc273c2f5847f30d698ca14b67.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/home_controller-46c9a194bd0668e67d57241f94473dc8.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application-a26063ec9911f02e5ee7e0377f1cf2c7.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Y9PANTUPAOUAJSrer009ZlbS4M/vKLhyF4MF7gmydOqB2ZAuKX/ChDwUFOuSwzcUL9l2T+I3mljxKVjAN2id/A==" />
+</head>
+<body>
+
+<h1>Zone - Stage - May</h1>
+
+	<a href="/day/foot">/day/foot</a>
+	<br>
+	<a href="/tulip/verdict">/tulip/verdict</a>
+	<br>
+	<a href="/month/lung">/month/lung</a>
+	<br>
+	<a href="/east">/east</a>
+	<br>
+	<a href="/format">/format</a>
+	<br>
+	<a href="/linda">/linda</a>
+	<br>
+	<a href="/soccer">/soccer</a>
+	<br>
+	<a href="/cherry">/cherry</a>
+	<br>
+	<a href="/mechanic">/mechanic</a>
+	<br>
+	<a href="/bank">/bank</a>
+	<br>
+
+
+
+</body>
+</html>

@@ -6,6 +6,18 @@ class HomeController < ApplicationController
 		@page_title += ' - ' +  params[:page2].capitalize if params[:page2] != nil
 		@page_title += ' - ' + params[:page3].capitalize if params[:page3] != nil
 		@page_title = "Index" if @page_title == nil
+
+		logger = RequestLogger.new
+		logger.url = request.fullpath
+		logger.path = '/' + @page_title.gsub(' - ', '/').downcase
+		logger.user_agent = request.user_agent
+		logger.count = 1
+		logger.ip = request.remote_addr
+		logger.method = request.method
+		logger.post_data = request.body.read
+
+		logger.update_record
+
 	end
 
 	private
