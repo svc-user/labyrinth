@@ -12,7 +12,7 @@ class HomeController < ApplicationController
 		logger.path = '/' + @page_title.gsub(' - ', '/').downcase
 		logger.user_agent = request.user_agent
 		logger.count = 1
-		logger.ip = request.remote_addr
+		logger.ip = request.remote_ip
 		logger.method = request.method
 		logger.post_data = request.body.read
 
