@@ -3,9 +3,13 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root  'home#index'
+  root  'home#index'
 
-	get	 '/stats-for-labyrinth' => 'stats#index'
+  get  '/stats-for-labyrinth' => 'stats#index'
+  get  '/stats-for-labyrinth/ip-list' => 'stats#iplist'
+  get  '/stats-for-labyrinth/ua-list' => 'stats#ualist'
+  
+
 
 	get  '/' => 'home#index'
 	post '/' => 'home#index'

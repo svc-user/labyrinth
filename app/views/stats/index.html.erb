@@ -9,7 +9,7 @@
 		<span class="u-pull-right">Unique IP's:</span>
 	</div>
 	<div class="ten columns">
-		<%= @stats[:unique_ips] %>
+		<%= link_to @stats[:unique_ips], '/stats-for-labyrinth/ip-list' %>
 	</div>
 </div>
 <div class="row">
@@ -17,7 +17,7 @@
 		<span class="u-pull-right">Unique UA's:</span>
 	</div>
 	<div class="ten columns">
-		<%= @stats[:unique_uas] %>
+		<%= link_to @stats[:unique_uas], '/stats-for-labyrinth/ua-list' %>
 	</div>
 </div>
 <% @stats[:request_types].each do |key, value| %>
@@ -39,7 +39,7 @@
 	</div>
 </div>
 
-<% @stats[:raw].each do |stat| %>
+<!--<% @stats[:raw].each do |stat| %>
 	<div class="row">
 		<div class="tvelve columns">
 			<pre>
@@ -49,5 +49,5 @@
 			</pre>
 		</div>
 	</div>
-<% end %>
+<% end %>-->
 
