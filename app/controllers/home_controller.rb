@@ -1,12 +1,12 @@
 class HomeController < ApplicationController
 	def index
 
-		puts "INDEX HIT"
+		#puts "INDEX HIT"
 
-		start = Time.now
+		#start = Time.now
 		@pages = get_next_pages 10
-		diff = Time.now - start
-		puts diff.inspect
+		#diff = Time.now - start
+		#puts diff.inspect
 
 		@page_title = params[:page].capitalize if params[:page] != nil
 		@page_title += ' - ' +  params[:page2].capitalize if params[:page2] != nil

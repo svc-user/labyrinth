@@ -5,7 +5,7 @@ class StatsController < ApplicationController
 		@stats[:unique_ips] = @stats[:raw].group(:ip).count.length
 		@stats[:unique_uas] = @stats[:raw].group(:user_agent).count.length
 		@stats[:total_served] = @stats[:raw].sum(:count)
-		@stats[:request_types] = @stats[:raw].group(:method).sum(:count)
+		@stats[:request_types] = @stats[:raw].group(:method).sum(:count).sort_by do |method, count| count end.reverse
 	end
 
 	def ip_list
