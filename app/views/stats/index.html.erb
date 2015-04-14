@@ -4,40 +4,28 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="two columns">
-		<span class="u-pull-right">Unique IP's:</span>
-	</div>
-	<div class="ten columns">
-		<%= link_to @stats[:unique_ips], '/stats-for-labyrinth/ip-list' %>
-	</div>
-</div>
-<div class="row">
-	<div class="two columns">
-		<span class="u-pull-right">Unique UA's:</span>
-	</div>
-	<div class="ten columns">
-		<%= link_to @stats[:unique_uas], '/stats-for-labyrinth/ua-list' %>
-	</div>
-</div>
-<% @stats[:request_types].each do |key, value| %>
-	<div class="row">
-		<div class="two columns">
-			<span class="u-pull-right"><%= key %> requests:</span>
-		</div>
-		<div class="ten columns">
-			<%= value %>
-		</div>
-	</div>
-<% end %>
-<div class="row">
-	<div class="two columns">
-		<span class="u-pull-right">Total served pages:</span>
-	</div>
-	<div class="ten columns">
-		<%= @stats[:total_served] %>
-	</div>
-</div>
+<table class="u-full-width">
+	<tbody>
+		<tr>
+			<td>Unique IP's</td>
+			<td><%= link_to @stats[:unique_ips], '/stats-for-labyrinth/ip-list' %></td>
+		</tr>
+		<tr>
+			<td>Unique UA's</td>
+			<td><%= link_to @stats[:unique_uas], '/stats-for-labyrinth/ua-list' %></td>
+		</tr>
+		<% @stats[:request_types].each do |key, value| %>
+			<tr>
+				<td><%= key %> requests</td>
+				<td><%= value %></td>
+			</tr>
+		<% end %>
+		<tr>
+			<td>Total served pages</td>
+			<td><%= link_to @stats[:total_served], '/stats-for-labyrinth/top-pages' %></td>
+		</tr>
+	</tbody>
+</table>
 
 <!--<% @stats[:raw].each do |stat| %>
 	<div class="row">

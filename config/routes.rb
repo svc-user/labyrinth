@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   root  'home#index'
 
   get  '/stats-for-labyrinth' => 'stats#index'
-  get  '/stats-for-labyrinth/ip-list' => 'stats#iplist'
-  get  '/stats-for-labyrinth/ua-list' => 'stats#ualist'
+  get  '/stats-for-labyrinth/ip-list' => 'stats#ip_list'
+  get  '/stats-for-labyrinth/ua-list' => 'stats#ua_list'
+  get  '/stats-for-labyrinth/top-pages' => 'stats#top_pages'
+
   
 
 
