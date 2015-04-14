@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="twelve columns">
+		<h1>Stats for labyrinth - Most active pages</h1>
+	</div>
+</div>
+<table class="u-full-width">
+	<thead>
+		<tr>
+			<th>Page</th>
+			<th>Count</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @top.each do |page| %>
+			<tr>
+				<td><%= page[0] %></td>
+				<td><%= page[1] %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
