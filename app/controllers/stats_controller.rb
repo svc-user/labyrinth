@@ -28,14 +28,14 @@ class StatsController < ApplicationController
 	def ua_stats
 		ua = Base64.decode64(params[:ua])
 		ua = nil if ua == "nil"
-		entries = RequestLogger.all.where(:user_agent => ua)
+		entries = RequestLogger.all.where("user_agent like ?", ua)
 		@ips = entries.group(:ip).count.sort_by do |ip, count| count end.reverse
 		@pages = entries.group(:path).count.sort_by do |path, count| count end.reverse
 	end
 
 	def ip_stats
 		ip = params[:ip].to_s.gsub("_", "\.")
-		entries = RequestLogger.all.where(:ip => ip)
+		entries = RequestLogger.all.where("ip like ?", ip)
 		@uas = entries.group(:user_agent).count.sort_by do |ua, count| count end.reverse
 		@pages = entries.group(:path).count.sort_by do |path, count| count end.reverse
 	
