@@ -1,13 +1,14 @@
 <div class="row">
 	<div class="twelve columns">
-		<h1>Stats for labyrinth - Most active UA's</h1>
+		<h1>Stats for labyrinth</h1>
 		<small><a href="/stats-for-labyrinth">Back</a></small>
 	</div>
 </div>
+
 <table class="u-full-width">
 	<thead>
 		<tr>
-			<th>User-agent</th>
+			<th>Top UA's</th>
 			<th>Count</th>
 		</tr>
 	</thead>
@@ -15,8 +16,26 @@
 		<% @uas.each do |ua| %>
 			<tr>
 				<td><%= link_to ua[0], '/stats-for-labyrinth/ua/' + ua[2] %></td>
-				<td><%= ua[1] %></td>
+				<td><%= ua[1] %>
 			</tr>
 		<% end %>
 	</tbody>
 </table>
+<table class="u-full-width">
+	<thead>
+		<tr>
+			<th>Top pages</th>
+			<th>Count</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @pages.each do |page, count| %>
+			<tr>
+				<td><%= page %></td>
+				<td><%= count %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+
+

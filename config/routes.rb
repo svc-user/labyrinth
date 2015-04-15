@@ -9,8 +9,8 @@ Rails.application.routes.draw do
   get  '/stats-for-labyrinth/ip-list' => 'stats#ip_list'
   get  '/stats-for-labyrinth/ua-list' => 'stats#ua_list'
   get  '/stats-for-labyrinth/top-pages' => 'stats#top_pages'
-
-  
+	get  '/stats-for-labyrinth/ua/:ua' => 'stats#ua_stats'
+	get  '/stats-for-labyrinth/ip/:ip' => 'stats#ip_stats'  
 
 
 	get  '/' => 'home#index'
