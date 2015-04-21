@@ -1,36 +1,34 @@
 class HomeController < ApplicationController
 	def index
-
-		#puts "INDEX HIT"
-
-		#start = Time.now
-		@pages = get_next_pages 10
-		#diff = Time.now - start
-		#puts diff.inspect
-
 		@page_title = params[:page].capitalize if params[:page] != nil
 		@page_title += ' - ' +  params[:page2].capitalize if params[:page2] != nil
 		@page_title += ' - ' + params[:page3].capitalize if params[:page3] != nil
 		@page_title = "Index" if @page_title == nil
-
-		logger = RequestLogger.new
-		logger.url = request.fullpath
-		logger.path = '/' + @page_title.gsub(' - ', '/').downcase
-		logger.user_agent = request.user_agent
-		logger.count = 1
-		logger.ip = request.remote_ip
-		logger.method = request.method
-		logger.post_data = request.body.read
-
-		logger.update_record
-
+		
+		page_seed = get_seed_for_page '/' + @page_title.gsub(' - ', '/').downcase
+		@pages = get_next_pages 10, page_seed
 	end
 
 	private
-		def get_next_pages num
+
+		def log_request
+			logger = RequestLogger.new
+			logger.url = request.fullpath
+			logger.path = '/' + @page_title.gsub(' - ', '/').downcase
+			logger.user_agent = request.user_agent
+			logger.count = 1
+			logger.ip = request.remote_ip
+			logger.method = request.method
+			logger.post_data = request.body.read
+
+			logger.update_record
+		end
+
+		def get_next_pages num, page_seed
 			nouns = load_nouns
 			pages = Array.new
 			rand = Random.new
+			srand(page_seed)
 
 			num.times do
 				page = ''
@@ -40,6 +38,14 @@ class HomeController < ApplicationController
 				pages << page
 			end
 			return pages
+		end
+
+		def get_seed_for_page path
+			seed = 0
+			path.chars.each do |c|
+				seed += c.ord
+			end
+			return seed
 		end
 
 		def load_nouns
