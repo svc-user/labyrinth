@@ -7,6 +7,8 @@ class HomeController < ApplicationController
 		
 		page_seed = get_seed_for_page '/' + @page_title.gsub(' - ', '/').downcase
 		@pages = get_next_pages 10, page_seed
+
+		log_request
 	end
 
 	private
